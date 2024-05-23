@@ -982,7 +982,7 @@ class PinchZoom extends Component<Props> {
 
     const { pageX, pageY, deltaY, deltaMode } = wheelEvent;
 
-    let scaleDelta = 1;
+    let scaleDelta = 50;
 
     if (isZoomGesture(wheelEvent) || deltaMode === 1) {
       scaleDelta = 150;
