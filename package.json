@@ -57,14 +57,17 @@
     "@types/react": "^18.2.58"
   },
   "files": [
-    "cmj",
-    "esm",
+    "cmj/**/*",
+    "esm/**/*",
     "!*.test.*"
   ],
   "description": "A react component that providing multi-touch gestures for zooming and dragging on any DOM element.",
   "author": "David Nrb <offantik@gmail.com>",
   "license": "MIT",
-  "repository": "retyui/react-quick-pinch-zoom",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/react-quick-pinch-zoom.git"
+  },
   "keywords": [
     "drag",
     "gesture",
